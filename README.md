@@ -50,19 +50,6 @@ flowchart TD
     F --> I["/mnt/data3<br/>(logs)"]
 ```
 
-### Process Flow
-```mermaid
-flowchart LR
-    A["Validate Disk"] --> B["Safety Checks"]
-    B --> C["User Confirmation"]
-    C --> D["Create GPT Label"]
-    D --> E["Create Partitions"]
-    E --> F["Format Filesystems"]
-    F --> G["Generate fstab"]
-    G --> H["Create Mountpoints"]
-    H --> I["Mount (optional)"]
-```
-
 ## Features
 
 - **Flexible Partitioning**:
